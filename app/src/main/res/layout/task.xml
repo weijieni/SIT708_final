@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/pikachu_task">
+
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:src="@drawable/pikachu_head"
+        android:id="@+id/headImg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/qTxt"
+        android:layout_marginEnd="10sp"
+        android:layout_marginTop="32sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        android:background="@drawable/dialog_style"
+        android:id="@+id/qTxt"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@id/headImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32sp"/>
+
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:src="@drawable/pikachu_back"
+        android:id="@+id/backImg"
+        app:layout_constraintTop_toBottomOf="@id/qTxt"
+        app:layout_constraintStart_toEndOf="@id/aTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="50sp"/>
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        android:background="@drawable/dialog_style"
+        android:id="@+id/aTxt"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/backImg"
+        app:layout_constraintTop_toBottomOf="@id/qTxt"
+        android:layout_marginTop="50sp"/>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300sp"
+        android:layout_height="20sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="70sp"
+        android:layout_marginBottom="16sp"
+        android:progressDrawable="@drawable/progress_bg"
+        app:layout_constraintBottom_toTopOf="@+id/pad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/aTxt" />
+
+    <TextView
+        android:id="@+id/pTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70sp"
+        android:text="@string/_0_10"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/pad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/progress"
+        app:layout_constraintTop_toBottomOf="@id/aTxt" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:id="@+id/pad"
+        android:background="@drawable/card_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progress"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.divyanshu.draw.widget.DrawView
+            android:layout_width="300sp"
+            android:layout_height="250sp"
+            android:id="@+id/draw_view"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/add"
+                android:layout_width="160sp"
+                android:layout_height="80sp"
+                android:background="@drawable/btn_style_2"
+                android:layout_gravity="center"
+                android:text="@string/ok"
+                android:textSize="30sp"
+                android:layout_marginStart="16sp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/delete"
+                android:layout_width="160sp"
+                android:layout_height="80sp"
+                android:background="@drawable/btn_style_3"
+                android:layout_gravity="center"
+                android:text="@string/delete"
+                android:textSize="30sp"
+                android:layout_marginStart="32sp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

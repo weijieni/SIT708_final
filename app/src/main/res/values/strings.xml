@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SIT708</string>
+    <string name="study_math_with_pikachu">STUDY\n\nMATH WITH\n\nPIKACHU!</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="your_details">YOUR DETAILS</string>
+    <string name="your_name">Your Name...</string>
+    <string name="your_age">Your Age...</string>
+    <string name="your_password">Your Password...</string>
+    <string name="ok">OK!</string>
+    <string name="back_to_menu">BACK TO MENU</string>
+    <string name="pika">PIKA!</string>
+    <string name="name">NAME</string>
+    <string name="congratulations">CONGRATS</string>
+    <string name="close_to_win">CLOSE TO WIN</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="choose_your_task">Choose Your Task</string>
+    <string name="task">task</string>
+    <string name="_0_10">0/10</string>
+    <string name="delete">DELETE</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.1079136690647482" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/btn_style.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/btn_style_2.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/btn_style_3.xml" value="0.1905" />
+        <entry key="app/src/main/res/drawable/btn_style_active.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/btn_style_fragment.xml" value="0.1905" />
+        <entry key="app/src/main/res/drawable/card_style.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/dialog_style.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/progress_bg.xml" value="0.2085" />
+        <entry key="app/src/main/res/layout-v26/items_task.xml" value="0.24944598097036313" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.28812255859375" />
+        <entry key="app/src/main/res/layout/congrats.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/items_task.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.27158966064453127" />
+        <entry key="app/src/main/res/layout/oops.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/signup.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/task.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/welcome.xml" value="0.27202606201171875" />
+        <entry key="app/src/main/res/layout/welcome_fragment.xml" value="0.29375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

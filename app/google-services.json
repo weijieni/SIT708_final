@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "831931237327",
+    "firebase_url": "https://pika-ea53a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pika-ea53a",
+    "storage_bucket": "pika-ea53a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831931237327:android:70f320c828597c39d788ba",
+        "android_client_info": {
+          "package_name": "com.example.pika2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831931237327-q3rjoi801j7k2ae7gebte9036ggksrd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pika2",
+            "certificate_hash": "ca0f20e7d1a4eef0199c8a872ce37868ce675275"
+          }
+        },
+        {
+          "client_id": "831931237327-37v9ejgcaffqnd8uvir6grfl8ujm275o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBadRd3i2AzUiBNT_vH6zDlbRAlxndfZyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831931237327-37v9ejgcaffqnd8uvir6grfl8ujm275o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
